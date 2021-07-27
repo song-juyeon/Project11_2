@@ -11,12 +11,15 @@
         android:id="@+id/gallery1"
         android:spacing="5dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
     <ImageView
         android:id="@+id/imgv_large"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="20dp"/>
+        android:padding="20dp"
+        android:scaleType="fitCenter"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
